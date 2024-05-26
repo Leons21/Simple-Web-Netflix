@@ -1,0 +1,85 @@
+.login-container
+{
+    width: 85%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(netflix_background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #000;
+    color: #fff;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    margin-right: 200px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(69, 69, 69, 0.7);
+    height: 30px;
+    color: white;
+}
+
+button {
+    background: #e50914;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    height: 45px;
+}
+
+button:hover {
+    background: #ff0a16;
+}
+
+.checkbox{
+    display: flex;
+    margin-top:10px;
+    flex-direction: row;
+    font-size: 0.8rem;
+}
+
+
